@@ -4,7 +4,7 @@
 <%
 
 File path;
-path = new File("./jspCode/HisecureDemo/Pass");// 讀進來的檔案
+path = new File("./webapps/HisecureDemo/Pass");// 讀進來的檔案
 File[] files = path.listFiles();
 for (int i = 0; i < files.length; i++) {
 	if (files[i].isFile()) {

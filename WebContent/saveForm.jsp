@@ -8,7 +8,7 @@
 
     String encrypt=function_AES.encrypt(password);
   	
-	FileWriter fos = new FileWriter("./jspCode/HisecureDemo/Pass/password.txt", false);
+	FileWriter fos = new FileWriter("./webapps/HisecureDemo/Pass/password.txt", false);
 	
 	fos.write(encrypt);
 	

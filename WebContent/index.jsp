@@ -10,7 +10,7 @@
 
 <%
 
-	BufferedReader reader = new BufferedReader(new FileReader("./jspCode/HisecureDemo/Pass/password.txt"));
+	BufferedReader reader = new BufferedReader(new FileReader("./webapps/HisecureDemo/Pass/password.txt"));
     String data="";
     String encrypt="";
     while ((data = reader.readLine()) != null){
